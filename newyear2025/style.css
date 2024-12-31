@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #7473a3, #b7664f);
+    /* background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.salutbonjour.ca%2F2024%2F11%2F07%2Fnumerologie-2025-ou-lannee-universelle-9-annonce-le-commencement-dun-nouveau-cycle&psig=AOvVaw1txgw5j1iLL8AJj8-yacod&ust=1735716437903000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjUzuC90YoDFQAAAAAdAAAAABAJ); */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.container {
+    /* background: rgba(36, 32, 32, 0.5);/ */
+    height: 500px;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transform: translateX(110px);
+    
+}
+.new{
+    height: inherit;
+    width: initial;
+    opacity: 0.4;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 3rem;    
+    margin-bottom: 10px;
+    animation-name: newyear;
+    animation-iteration-count: infinite;
+    animation-delay: 5;
+    animation-duration: 5s;
+    
+}
+
+@keyframes newyear{
+   
+    0%{
+        color: red;
+
+    }
+
+   5%{
+        color: white   ;
+
+    }
+
+    10%{
+        color: goldenrod;
+
+    }
+
+
+    20%{
+        color: rgb(48, 216, 22);
+
+    }
+   25%{
+        color: darkolivegreen;
+
+    }
+
+    28%{
+        color: rgb(7, 66, 192);
+
+    }
+
+   30%{
+        color: rgb(209, 48, 179);
+
+    }
+
+    35%{
+        color: darkgoldenrod;
+
+    }
+    55%{
+        color:darkkhaki;
+
+    }
+
+    60%{
+        color: darkmagenta;
+
+    }
+    65%{
+        color: greenyellow;
+
+
+    }
+
+    70%{
+        color: darkblue;
+
+    }
+    75%{
+        color: rgb(60, 7, 7);
+    }
+
+
+    80%{
+        color: rgb(23, 233, 230);
+
+    }
+    90%{
+        color: rgb(85, 53, 227);
+
+    }
+
+    95%{
+        color: rgb(32, 164, 205);
+
+    }
+    98%{
+        color: rgb(180, 146, 146);
+
+    }
+
+   100%{
+    color: rgb(225, 255, 0);
+
+    }
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background:goldenrod;
+}
+
+#countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.newyear{
+    width:  700px;
+    height: auto;
+    background-color: steelblue;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateX(180px);
+
+}

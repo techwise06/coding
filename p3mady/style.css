@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font: weight 900px ;
+    /* background-color: rgb(194, 201, 201); */
+
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-delay: 4;
+
+}
+
+
+@keyframes ani{
+    form{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
