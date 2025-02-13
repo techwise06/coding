@@ -4,6 +4,7 @@ body {
     text-align: center;
     color: white;
     padding: 50px;
+    
 }
 
 .container {
@@ -13,6 +14,18 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     display: inline-block;
     max-width: 400px;
+}
+
+.container1{
+    background-color: gainsboro;
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    min-width: 800px;
+}
+.container1 h4{
+    color: steelblue;
+    text-shadow: 1px 1px  1px  rgb(205, 201, 222);
 }
 
 h1 {
@@ -37,4 +50,9 @@ button{
     cursor: pointer;
     border-radius: 5px;
     margin-top:5px;
+}
+
+
+.life{
+    color: #999;
 }
